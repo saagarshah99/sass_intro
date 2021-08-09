@@ -1,0 +1,5 @@
+$primary-font: Arial, Helvetica, sans-serif;
+$secondary-font: 'Dancing Script', cursive;
+
+* {font-family: $primary-font;}
+.nav__title, .hero__subtitle, .secondary-font {font-family: $secondary-font;}

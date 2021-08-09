@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS Intro</title>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- 
+        1. Variables and how they help with theming applications 
+        2. Does nesting make things more readable?
+        3. Good file structure     
+    -->
+    
+    <nav class="nav">
+        <h2 class="nav__title secondary-font">My Site</h2>
+        <button class="nav__login btn-primary">Login</button>
+    </nav>
+    
+    <main>
+        <div class="hero">
+            <h2 class="hero__title primary-font">Hello</h2>
+            <h3 class="hero__subtitle secondary-font">Welcome to my site</h3>
+            <button class="btn-primary">scroll</button>
+        </div>
+        
+        <form action="" class="form">
+            <label for="txtName" class="primary-font">Name</label>
+            <input type="text" name="name" class="form__input__label" id="txtName">
+    
+            <label for="txtEmail" class="primary-font">Email</label>
+            <input type="email" name="email" class="form__input__label" for="txtEmail">
+    
+            <input type="submit" class="form__input__send" value="Send" />
+        </form> 
+    </main>
+    
+    <footer>
+        <div style="height: 150px;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,92.27 C216.83,192.92 304.30,8.39 500.00,109.03 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: lightgray; border: 1px solid black;"></path>
+            </svg>
+        </div>
+        
+    </footer>
+</body>
+</html>

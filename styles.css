@@ -1,0 +1,64 @@
+.btn-primary {
+  background-color: #BF9000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav__title, .hero__subtitle, .secondary-font {
+  font-family: "Dancing Script", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #1C4587;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: lowercase;
+  padding: 10px;
+}
+.nav__title {
+  margin: 10px;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hero h2 {
+  color: #1C4587;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #d8c9c9;
+  flex-direction: column;
+  grid-gap: 10px;
+  width: 300px;
+  padding: 5px;
+}
+.form__input__label, .form__input__send {
+  width: 90%;
+}
+.form__input__send {
+  background-color: #0084ff;
+  border: none;
+  color: #fff;
+}

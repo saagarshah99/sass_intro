@@ -1,0 +1,9 @@
+@import "variables";
+
+.btn-primary
+{
+    background-color: $secondary-colour;
+    color: $text-colour;
+    border-radius: 10px;
+    padding: 10px;
+}
